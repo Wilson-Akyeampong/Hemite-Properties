@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>HERMITE PROPERTIES</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/
+    bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://use.fontawesome.com/cea2101c06.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css//all.min.css">
+    <link rel="stylesheet" href="">
+  </head>
+  <body>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <!--navigation bar-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top"> 
+    <div class="container-fluid">
+      <a class="navbar-brand " href="#"><img src=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse"
+      data-target="#navbarResponsive">
+      <span class="navbar-toggler-icon"></span>
+      
+      </button>
+          
+          <div class="collasppe navbar-collaspe" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+    </div>
+    </nav>
+  
+  <!--Imageslider-->
+  <div id="slide" class="carousel slide" data-ride="carousel">
+    <ul class="carousel-indicators">
+      <li data-target="#slides" data-slide-to="0" class="active"></li>
+      <li data-target="#slides" data-slide-to="1" ></li>
+      <li data-target="#slides" data-slide-to="2" ></li>
+
+    </ul>
+    <div class="carousel-inner">
+      <div class="carousel-item active" >
+        <img src="img/home-design.jpg">
+        <div class="carousel-caption">
+          <h1 class="display-2" >wilson homes</h1>
+          <h3>fully furnished homes for all</h3>
+          <button type="button" class="btn btn-outline-light btn-lg">view demo</button>
+          <button type="button" class="btn btn-primary btn-lg">get started</button>
+        </div>
+      </div> 
+      <div class="carousel-item" >
+        <img src="img/wwe.jpg">
+      </div>
+      <div class="carousel-item" >
+        <img src="img/beautiful-luxury-home-exterior-twilight-260nw-639916900.webp">
+      </div>  
+    </div>
+  </div>
+
+  <!--jambotron-->
+<div class="container-fluid">
+<div class="row jumbotron">
+  <div class="col-xs-12 col-sm-12 col-md-9 col-xl-10">
+    <p class="lead">Vodafone Ghana, formerly Ghana Telecom, is the national telecommunications company of Ghana. The company in Ghana operates under Vodafone Group Plc - the world's leading mobile telecommunications company, with a significant presence in Europe</p>
+  </div>
+<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-10 ">
+  <a href="#"><button type="button" class="btn btn-outline-secondary btn-lg">web hosting</button></a>
+</div>
+</div>
+</div>
+  
+
+<!--welcom-->
+<div class="container-fluid padding">
+  <div class="row welcome text-container">
+    <div class="col-12">
+      <h1>BUILT WITH EASE</h1>
+      <hr>
+      <div class="col-12">
+        <div class="col-12">
+          <p class="lead">Vodafone Ghana, formerly Ghana Telecom, is the national telecommunications company of Ghana. The company in Ghana operates under Vodafone Group Plc - the world's leading mobile telecommunications company, with a significant presence in Europe, the Middle East, Africa, Asia Pacific and the United States
+
+          </p>
+        </div>
+      </div>
+     </div>
+  </div>
+</div>
+
+<!--three column container-->
+<div class="container-fluid padding">
+  <div class="row text-centre [adding">
+    <div class=" col-xs-12 col-sm-6 col-md-4">
+      <i class="fas-code"></i>
+      <h3>HTML5</h3>
+      <P>built with the latest html version, HTML5</P>
+    </div>
+
+    <div class=" col-xs-12 col-sm-6 col-md-4">
+      <i class="fab-CSS3"></i>
+      <h3>CSS3</h3>
+      <P>built with the latest CSS3 version, CSS3</P>
+    </div>
+
+    <div class=" col-xs-12 col-sm-6 col-md-4">
+      <i class="fas-bold"></i>
+      <h3>Bootstrap</h3>
+      <P>built with the latest bootstrap version, Bootstrap 4</P>
+    </div>
+
+  </div>
+
+</div>
+ <br>
+<!--two column section-->
+<div class="container-fluid padding">
+  <div class="row padding" >
+    <div class="col-md-12 col-lg-6">
+      <h2>if you Build it.. </h2>
+      <p>Vodafone Ghana, formerly Ghana Telecom, is the national telecommunications company of Ghana. The company in Ghana operates under Vodafone Group Plc - the world's leading mobile telecommunications company, with a significant presence in Europe, the Middle East, Africa, Asia Pacific and the United States
+      </p>
+      <br>
+      <br>
+      <a href="#" class="btn btn-primary"> learn more</a>
+    
+    </div>
+    <div class="col-lg-6">
+      <img src="img/desk.png">
+    </div>
+
+  </div>
+</div>
+
+<hr class="my-4">
+<!--fixed background-->
+<figure>
+  <div class="fixed-wrap">
+    <div id="fixed"></div>
+  </div>
+</figure>
+
+<!--emoji-->
+<button class="fun" data-toggle="collapse" data-target="#emoji">click for fun
+
+</button>
+<div id="emoji" class="collapse">
+  <div class="container-fluid padding">
+    <div class="row text-center">
+      <div class="col-sm-6 col-md-3">
+        <img class="gif" src="img/gif/chicken.gif" alt="">
+      </div>
+
+      <div class="col-sm-6 col-md-3">
+        <img class="gif" src="img/gif/panda.gif" alt="">
+      </div>
+
+      <div class="col-sm-6 col-md-3">
+        <img class="gif" src="img/gif/poo.gif" alt="">
+      </div>
+
+
+    </div>
+  </div>
+</div>
+
+
+<!--meet the team-->
+<div class="container-fluid padding">
+  <div class="row welcom text-center">
+    <div class="col-12">
+      <h1 class="display-4">Meet The Team</h1>
+    </div>
+      <hr>
+  </div>
+</div>
+
+
+<!--cards-->
+
+<div class="container-fluid padding">
+  <div class="row padding" >
+    <div class="col-md-2">
+      <div class="card">
+        <img class="card-img-top" src="img/wilson2.JPG" >
+        <div class="card-body">
+          <h4 class="card-title">Wilson Ntim</h4>
+          <p class="card-text">Wilson Ntim is a software developer
+             with 20 years experience</p>
+               <a  href="#" class="btn btn-outline-secondary">see profile</a>
+              </div>
+          </div>
+    </div>
+
+    <div class="col-md-2">
+      <div class="card">
+        <img class="card-img-top" src="img/kyei.jpg" >
+        <div class="card-body">
+          <h4 class="card-title">Kyei Bitches</h4>
+          <p class="card-text">Kyei Bitches is a software developer
+             with 20 years experience</p>
+               <a  href="#" class="btn btn-outline-secondary">see profile</a>
+              </div>
+          </div>
+    </div>
+
+    <div class="col-md-2">
+      <div class="card">
+        <img class="card-img-top" src="img/team1.png" >
+        <div class="card-body">
+          <h4 class="card-title">Wilson Ntim</h4>
+          <p class="card-text">Wilson Ntim is a software developer
+             with 20 years experience</p>
+               <a  href="#" class="btn btn-outline-secondary">see profile</a>
+              </div>
+          </div>
+    </div>
+  </div>
+</div>
+<!--connect-->
+<div class="container-fluid padding">
+  <div class="row text-center padding"> 
+    <div class="col-12">
+      <h2 >CONNECT</h2>
+
+    </div>
+    <div class="col-12 social padding">
+      <a href="#"> <i class="fab fb-facebook"></i></a>
+      <a href="#"> <i class="fab fb-twitter"></i></a>
+      <a href="#"> <i class="fab fb-instagram"></i></a>
+      <a href="#"> <i class="fab fb-youtube"></i></a>
+    </div>
+  </div>
+</div>
+<!--footer-->
+<footer>
+  <div class="container-fluid padding">
+    <div class="row text-center ">
+      <div class="col-md-4">
+        <img src="img/w3newbie.png" alt="">
+        <hr class="light">
+        <p>0244050203</p>
+        <p>kwekuakyeampong3@gmail.com</p>
+        <p>oxford street</p>
+        <p>city state 00000</p>
+      </div>
+      <div class="col-md-4">
+        <hr class="light">
+        <h5>our hours</h5>
+        <p>monday: 8am - 5pm </p>
+        <p>saturdays: 10am - 4pm </p>
+        <p>sundays: closed</p>
+        <p>holidays :12pm - 5pm</p>
+
+
+      </div>
+
+      <div class="col-md-4">
+        <hr class="light">
+        <h5>services</h5>
+        <p>city state 00000</p>
+        <p>city state 00000</p>
+        <p>city state 00000</p>
+        <p>city state 00000</p>
+        
+
+
+      </div>
+
+    </div>
+  </div>
+</footer>
+
+
+  </body>
+</html>
